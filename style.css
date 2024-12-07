@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); 
+* { 
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box; 
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden; 
+} 
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Press Start 2P', cursive; 
+    margin-bottom: 15px; 
+} 
+    
+h2 { 
+        margin-top: 30px; 
+        margin-bottom: 20px; 
+} 
+    
+ul { 
+    list-style-type: circle; 
+    margin-left: 40px; 
+    margin-bottom: 30px; 
+    padding-left: 20px; 
+} 
+    
+ul li { 
+    margin-bottom: 15px; 
+} 
+
+p { 
+    margin-bottom: 20px; 
+    line-height: 1.6; 
+} 
+
+html, body { 
+    width: 100%; 
+    height: 100%; 
+    background-color: black; 
+    overflow-x: hidden;
+}
+
+#index-wrapper {  
+    margin-left: 300px;
+    width: calc(80% - 300px); 
+    margin: auto; 
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow-y: hidden;
+}
+
+
+#index-header {
+    width: 100%;
+    min-height: 400px;
+    line-height: 200px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px white;
+}
+
+#footer {
+    width: 100%;
+    background-color: black;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+#about-wrapper {  
+    width: calc(80% - 300px); 
+    margin-left: 300px;
+    margin: auto; 
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+#about-title {
+    width: 100%;
+    height:fit-content;
+    background-color: black;
+    padding: 20px;
+    text-align: justify;
+    color: white;
+    font-size: large;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+#about-title h1 {
+    margin: 0;
+    font-size: 2em;
+    color: white;
+}
+
+#about-body-area {
+    width: 100%;
+    height: 100vh; 
+    background-color: black;
+    line-height: 1.6;
+    padding: 20px;
+    margin-top: 0;
+    text-align: center;
+    color: white;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    overflow-y: hidden;
+}
+
+
+#about-image {
+    flex: 1;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-paragraph {
+    flex: 2;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #1e1e1e;
+    width: 100%;
+    max-width: 700px; 
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+#about-picture {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+#contact-wrapper {  
+    width: calc(80% - 300px); 
+    margin-left: 300px;
+    margin: auto; 
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column;
+    background-color: black;
+    overflow-y: hidden;
+}
+
+#contact-title {
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    text-align: justify;
+    color: white;
+    font-size: large;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+#contact-title h1 {
+    margin: 0;
+    font-size: 2em;
+    color: white;
+}
+
+#contact-body-area {
+    width: 100%;
+    background-color: black;
+    line-height: 1.6;
+    padding: 20px;
+    margin-top: 0;
+    text-align: justify;
+    color: white;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+#contacts {
+    flex: 2;
+    text-align: left;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #1e1e1e;
+    width: 200px;
+}
+
+#contact-picture {
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50%;;
+}
+
+#port-wrapper {  
+    width: calc(100% - 300px);
+    margin-left: 300px;
+    width: calc(100% - 200px);
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+#port-body-area {
+    width: 100%; 
+    background-color: black;
+    position: relative;
+    color: white;
+    padding-left: 2%;
+    padding-right: 10%;
+    padding-top: 2%;
+    font-size: 20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+#port-picture {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+#port-conv {
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+#sidebar {
+    width: 300px;
+    height: 100vh;
+    background-color:black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 10px;
+}
+
+.sidebar-button {
+    width: 90%;
+    text-align: center;
+    padding: 15px 0;
+    margin: 10px 0;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.sidebar-button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    transform: scale(1.05);
+}
+
+.download-button {
+    padding: 10px 20px;
+    font-size: 16px; 
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.download-button:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+

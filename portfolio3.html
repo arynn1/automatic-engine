@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav id="sidebar">
+            <h4>Romero.Portfolio</h4>
+            <a href="index.html" class="sidebar-button active">Home</a>
+            <a href="about.html" class="sidebar-button">About</a>
+            <a href="contact.html" class="sidebar-button">Contact</a>
+            <a href="portfolio1.html" class="sidebar-button">Portfolio 1</a>
+            <a href="portfolio2.html" class="sidebar-button">Portfolio 2</a>
+            <a href="portfolio3.html" class="sidebar-button">Portfolio 3</a>
+            <a href="portfolio4.html" class="sidebar-button">Portfolio 4</a>
+            <a href="portfolio5.html" class="sidebar-button">Portfolio 5</a>
+            <a href="portfolio6.html" class="sidebar-button">Portfolio 6</a>
+        </nav>
+            <div id="port-wrapper">
+                <div id="port-body-area">
+                    <h1>NUMBER SYSTEMS</h1>
+                    <p><strong>Presented By:</strong> Ryan Nicolas M. Romero</p>
+                    <p><strong>ITC 1 Portfolio #3</strong></p>
+                
+                    <h2>OVERVIEW</h2>
+                    <ol>
+                        <li>Introduction</li>
+                        <li>What Are Number Systems?</li>
+                        <li>Ttypes of Number Systems</li>
+                        <li>Base 10, 2, 8, 16</li>
+                        <li>Number System Conversions</li>
+                        <li>Refrences</li>
+                    </ol>
+                
+                    <h2>INTRO</h2>
+                    <p>
+                        Number systems are systems of counting numbers using a base value. We usually count in the decimal number system which goes like 1 to 2, then 3 until 1000 and more. This is only one of the many examples of number systems that humans created over a long period. In this presentation, I will be talking about number systems commonly used in computing, which are Decimal, Binary, Octal, and Hexadecimal.
+                    </p>
+                
+                    <h2>NUMBER SYSTEMS</h2>
+                    <p>
+                        Number systems are widely used for computing like in machine code using binary, or other digital numbering systems using base 8 or 16. These systems help our programs run, and without them, we would not have the luxury we have today regarding our programs, especially involving large numbers and calculations.
+                    </p>
+                    <p>
+                        Number systems date back to the Babylonians with their Babylonian numbering system. This system was a base 60 system. There are several systems all over the world like in China, Egypt, Ancient Greece, and Ancient Rome, and of course, decimal, binary, octal, and hexadecimal used in computers.
+                    </p>
+                
+                    <h2>TYPES OF NUMBER SYSTEMS</h2>
+                    <h3>DECIMAL</h3>
+                    <p>
+                        The decimal number system, also known as the Base10 numbering system, is the system most people in the world use. Its values range from 0-9. Using this decimal system, when we receive a number, let's say 121, we multiply each single-digit value in 121 by 10^n, where n is the place of that number from right to left starting at 0.
+                        <br><strong>Example:</strong>
+                        <br>121 = 1*10^2 + 2*10^1 + 1*10^0 = 100 + 20 + 1
+                    </p>
+                
+                    <h3>BINARY</h3>
+                    <p>
+                        The binary number system, also known as Base2, is widely known to represent numbers in computers using 1s and 0s. Using this number system, we can take a string of 1s and 0s, for example, 1001, and multiply each single-digit value with 2^n, where n is its position from right to left starting from 0, and turn it into a decimal number.
+                        <br><strong>Example:</strong>
+                        <br>1001 = 1*2^3 + 0*2^2 + 0*2^1 + 1*2^0 = 8 + 0 + 0 + 1 = 9
+                    </p>
+                
+                    <h3>OCTAL</h3>
+                    <p>
+                        The octal number system, also known as the Base8 numbering system, is widely used in digital numbering systems and computers. Its values range from 0-7. Using the octal number system, we can take a number such as 121, multiply each single-digit value with 8^n, where n is its position from right to left starting at 0, and turn it into a decimal number.
+                        <br><strong>Example:</strong>
+                        <br>121 = 1*8^2 + 2*8^1 + 1*8^0 = 64 + 16 + 1 = 81
+                    </p>
+                
+                    <h3>HEXADECIMAL</h3>
+                    <p>
+                        The hexadecimal number system is a system used to represent large values in a small amount of numbers and letters. Its values range from 0-15, but from 10-15 it’s A, B, C, D, E, F, in that order. Using the hexadecimal system, we can take a number, let’s say, AF1, multiply each single-digit letter or value with 16^n, where n is its position from right to left starting with 0, and convert it into decimal.
+                        <br><strong>Example:</strong>
+                        <br>AF1 = A*16^2 + F*16^1 + 1*16^0 = 10*256 + 15*16 + 1 = 2801
+                    </p>
+                
+                    <h2>CONVERSION</h2>
+                    <h3>Decimal to Binary</h3>
+                    <p>Subtraction Method</p>
+                    <img src="assests\DB1.jpg" alt="Description" id="port-conv">
+                    <p>Division Method</p>
+                    <img src="assests\DB2.jpg" alt="Description" id="port-conv">
+                
+                    <h3>Binary to Octal</h3>
+                    <img src="assests/BO.jpg" alt="Description" id="port-conv">
+                
+                    <h3>Binary to Hexadecimal</h3>
+                    <img src="assests/BH.jpg" alt="Description" id="port-conv">
+                
+                    <h3>Hexadecimal to Octal</h3>
+                    <img src="assests/HO.jpg" alt="Description" id="port-conv">
+                
+                    <h3>Octal to Hexadecimal</h3>
+                    <img src="assests/OH.jpg" alt="Description" id="port-conv">
+                
+                    <h2>REFERENCES</h2>
+                    <ul>
+                        <li><a href="https://www.ipsgwalior.org/download/number%20system.pdf">Institute of Professional Studies, Gwalior</a></li>
+                        <li><a href="https://www.sathyabama.ac.in/sites/default/files/course-material/2020-10/unit1_7.pdf">Sathyabama Institute of Science and Technology</a></li>
+                        <li><a href="https://www.d.umn.edu/~tkwon/course/1315/NumberSys.pdf">University of Minnesota Duluth</a></li>
+                        <li><a href="https://www.researchgate.net/publication/320">ResearchGate</a></li>
+                        <li><a href="https://www.math.chalmers.se/Math/Grundutb/GU/MAN250/S04/Number_Systems.pdf">Chalmers University of Technology</a></li>
+                    </ul>
+                <a href="ITC PORTFOLIO/3.pdf" download> 
+                    <button class="download-button">Download File</button> 
+                </a> 
+            </div>
+        </div>
+    </body>
+</html>
